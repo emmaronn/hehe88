@@ -1,0 +1,258 @@
+body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont;
+  font-weight: 300;
+    background: url(https://i.imgur.com/fost0rg.jpg) top right no-repeat; background-attachment:fixed;
+}
+
+
+
+header {
+  width: 100%;
+    padding: 0px 0;
+    text-align: center;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+    width: 100&;
+}
+
+header h1 {
+  font-weight: 200;
+  margin: 0;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    color: #000000;
+    padding-top: 30px;
+    font-size: 68px;
+    width: 100%;
+    margin-bottom:5px;
+        
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+    
+}
+
+
+ul {
+    list-style-type: none;
+    margin: px 0px 0px 0px;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    font-family:-apple-system, system-ui, BlinkMacSystemFont;
+    text-transform:lowercase;
+    margin: 30px;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+
+li a {
+    color: #000000;
+}
+
+li a:hover { 
+    letter-spacing: 8px;
+    opacity: 0.7;
+    text-decoration: none;
+    color: gray;
+}
+
+html,
+body {
+    height: 100%;
+}
+ 
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;  
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family:-apple-system, system-ui, BlinkMacSystemFont;
+}
+
+
+input[type=submit] {
+    background-color: #999;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family:-apple-system, system-ui, BlinkMacSystemFont;
+    
+}
+
+
+input[type=submit]:hover {
+    background-color: #777;
+    font-family:-apple-system, system-ui, BlinkMacSystemFont;
+}
+
+
+.mailcontainer {
+    border-radius: 5px;
+    background-color: #none;
+    padding: 20px;
+    width:50%;
+    margin-left:30px;
+}
+
+
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+
+h3 {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont;
+    font-size: 32px;
+    color: #111;
+    font-weight:300;
+    margin:auto;
+    text-align:center;
+    margin-top: 50px;
+        letter-spacing:2px;
+     width:100%;
+  flex-wrap: wrap;
+    
+}
+
+p {
+    font-family:-apple-system, system-ui, BlinkMacSystemFont;
+    margin-top:10px;
+    font-size:15px;
+    width:80%;
+    margin:auto;
+    display: flex;
+  flex-wrap: wrap;
+    
+}
+
+.metacontainer {
+     border-radius: 5px;
+    background-color: #none;
+    padding: 20px;
+    width:30%;
+    margin-right:50px;
+    display: flex;
+    float: right;
+    margin-top: -520px;
+    
+}
+
+h4 {
+    background: #999;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left:20px;
+    font-family:-apple-system, system-ui, BlinkMacSystemFont;
+    color: #fff;
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing:3px;
+    width:90%;
+    font-weight: 300;
+    display:flex;
+
+}
+
+
+m {
+
+    font-family:-apple-system, system-ui, BlinkMacSystemFont;
+    font-size: 15px;
+    padding-top:0px;
+    margin-top:85px;
+    font-style: italic;
+    letter-spacing:1px;
+    font-weight:100;
+    margin-left:10px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding:  px;
+    margin:0 auto;
+
+width: 1260px; 
+}
+
+
+.column {
+  flex: 25%;
+  max-width: auto;
+  padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    margin-top: 5px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+    padding:3px;
+    margin:5px;
+}
+
+
+@media screen and (max-width: 100%;) {
+  .column {
+    flex: 50%;
+    max-width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+.col-sm-6 {
+  margin: 0 0 0px;
+}
+
+
+
+footer {
+  font-size: 13px;
+  padding: 20px 0;
+    width: 40px;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: row;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
